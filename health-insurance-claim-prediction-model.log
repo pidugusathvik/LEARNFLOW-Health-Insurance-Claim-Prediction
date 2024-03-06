@@ -1,0 +1,74 @@
+6.7s 1 no. of rows 15000
+6.7s 2 no. of columns 13
+8.8s 3 no. of rows 15000
+8.8s 4 no. of columns 13
+9.0s 5 <class 'pandas.core.frame.DataFrame'>
+9.0s 6 RangeIndex: 15000 entries, 0 to 14999
+9.0s 7 Data columns (total 13 columns):
+9.0s 8 #   Column               Non-Null Count  Dtype
+9.0s 9 ---  ------               --------------  -----
+9.0s 10 0   age                  15000 non-null  float64
+9.0s 11 1   sex                  15000 non-null  object
+9.0s 12 2   weight               15000 non-null  int64
+9.0s 13 3   bmi                  15000 non-null  float64
+9.0s 14 4   hereditary_diseases  15000 non-null  object
+9.0s 15 5   no_of_dependents     15000 non-null  int64
+9.0s 16 6   smoker               15000 non-null  int64
+9.0s 17 7   city                 15000 non-null  object
+9.0s 18 8   bloodpressure        15000 non-null  int64
+9.0s 19 9   diabetes             15000 non-null  int64
+9.0s 20 10  regular_ex           15000 non-null  int64
+9.0s 21 11  job_title            15000 non-null  object
+9.0s 22 12  claim                15000 non-null  float64
+9.0s 23 dtypes: float64(3), int64(6), object(4)
+9.0s 24 memory usage: 1.5+ MB
+9.6s 25 <class 'pandas.core.frame.DataFrame'>
+9.6s 26 RangeIndex: 15000 entries, 0 to 14999
+9.6s 27 Data columns (total 13 columns):
+9.6s 28 #   Column               Non-Null Count  Dtype
+9.6s 29 ---  ------               --------------  -----
+9.6s 30 0   age                  15000 non-null  float64
+9.6s 31 1   sex                  15000 non-null  int64
+9.6s 32 2   weight               15000 non-null  int64
+9.6s 33 3   bmi                  15000 non-null  float64
+9.6s 34 4   hereditary_diseases  15000 non-null  int64
+9.6s 35 5   no_of_dependents     15000 non-null  int64
+9.6s 36 6   smoker               15000 non-null  int64
+9.6s 37 7   city                 15000 non-null  int64
+9.6s 38 8   bloodpressure        15000 non-null  int64
+9.6s 39 9   diabetes             15000 non-null  int64
+9.6s 40 10  regular_ex           15000 non-null  int64
+9.6s 41 11  job_title            15000 non-null  int64
+9.6s 42 12  claim                15000 non-null  float64
+9.6s 43 dtypes: float64(3), int64(10)
+9.6s 44 memory usage: 1.5 MB
+29.5s 45 R-squared Score for Linear Regression (LR): 0.7490864602549503
+29.5s 46 R-squared Score for Support Vector Regression (SVR): -0.10367227528667633
+29.5s 47 R-squared Score for Random Forest Regressor (RF): 0.9671364233926784
+29.5s 48 R-squared Score for Gradient Boosting Regressor (GR): 0.8632991585519261
+29.7s 49 MAE for Linear Regression (LR): 4071.725236568484
+29.7s 50 MAE for Support Vector Regression (SVR): 8291.201612038634
+29.7s 51 MAE for Random Forest Regressor (RF): 449.7086410000088
+29.7s 52 MAE for Gradient Boosting Regressor (GR): 2666.231606544147
+30.0s 53 Medical Insurance cost for New Customer is: 15776.391084431609
+30.1s 54 Medical Insurance cost for New Customer (Random Forest Regressor) is: 13112.600000000008
+30.2s 55 age  sex  weight   bmi  hereditary_diseases  no_of_dependents  smoker  \
+30.2s 56 0  50.0    0      55  24.3                    0                 1       0
+30.2s 57 
+30.2s 58 city  bloodpressure  diabetes  regular_ex  job_title
+30.2s 59 0    55             72         0           0          2
+30.3s 60 Medical Insurance cost for New Customer is: 10898.60913298791
+30.3s 61 Medical Insurance cost for New Customer (Random Forest Regressor) is: 15743.633999999998
+33.9s 62 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+33.9s 63 warn(
+33.9s 64 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+33.9s 65 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+34.5s 66 [NbConvertApp] Writing 386532 bytes to __notebook__.ipynb
+36.7s 67 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+36.7s 68 warn(
+36.7s 69 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+36.8s 70 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+38.2s 71 [NbConvertApp] Support files will be in __results___files/
+38.2s 72 [NbConvertApp] Making directory __results___files
+38.2s 73 [NbConvertApp] Making directory __results___files
+38.2s 74 [NbConvertApp] Writing 377220 bytes to __results__.html
